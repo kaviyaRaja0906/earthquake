@@ -1,3 +1,6 @@
+body{
+  zoom: 100%;
+}
 #map{
   display: flex;
   margin: 0;
@@ -7,6 +10,7 @@
   background-color: #000;
   color: #fff;
   width: 25%;
+  height: 100vh;
 }
 .logo{
   display: flex;
@@ -18,7 +22,7 @@
 }
 .records{
   text-align: center;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .record-p{
   font-size: 1rem;
@@ -31,7 +35,6 @@
   text-align: center;
   color: #fff;
 }
-
 .report-text {
   font-size: 16px;
   text-align: center;
@@ -44,7 +47,6 @@
 .highlight {
   color: #ff0000;
 }
-
 .btn-div{
   text-align: center;
 }
@@ -123,7 +125,7 @@
   font-weight: 600;
   margin: 20px auto;
   width: 300px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
